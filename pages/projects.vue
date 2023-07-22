@@ -2,7 +2,7 @@
 const query = gql`
 {
   viewer {
-    repositories(first: 6, orderBy:{field:CREATED_AT,direction: DESC}) {
+    repositories(first: 100, orderBy:{field:CREATED_AT,direction: DESC}) {
       totalCount
       nodes {
         id
@@ -26,6 +26,9 @@ const query = gql`
 `
 
 const { data } = await useAsyncQuery(query);
+
+console.log(data)
+
 </script>
 
 <template>

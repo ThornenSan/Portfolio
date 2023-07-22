@@ -1,10 +1,7 @@
 <script setup>
 const links = [
-  { name: 'GitHub', href: 'https://github.com', icon: 'entypo-social:github-with-circle' },
-  { name: 'Twitter', href: 'https://twitter.com', icon: 'entypo-social:twitter' },
-  { name: 'Facebook', href: 'https://facebook.com', icon: 'entypo-social:facebook' },
-  { name: 'LinkedIn', href: 'https://www.linkedin.com', icon: 'entypo-social:linkedin-with-circle' },
-  { name: 'Instagram', href: 'https://instagram.com', icon: 'entypo-social:instagram' }
+  { name: 'GitHub', href: 'https://github.com/ThornenSan', icon: 'entypo-social:github-with-circle' },
+  { name: 'Facebook', href: 'https://www.facebook.com/thornen.san.1', icon: 'entypo-social:facebook' },
 ]
 </script>
 

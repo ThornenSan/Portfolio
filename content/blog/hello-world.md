@@ -26,8 +26,8 @@ You can use lists
 You can use code blocks
 
 ```js
-const hello = "world";
-console.log(hello);
+const hello = 'world'
+console.log(hello)
 ```
 
 You can use blockquotes
